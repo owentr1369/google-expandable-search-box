@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f0f3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#searchBox {
+  border-radius: 55px;
+  padding: 30px;
+  background-color: #f0f3ff;
+  display: flex;
+  align-items: center;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px 6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+input {
+  font-size: 20px;
+  /* width: 500px; */
+  width: 0;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  /* margin-left: 10px; */
+}
+
+#googleIcon {
+  width: 50px;
+  cursor: pointer;
+}
+.mic-icon {
+  /* width: 30px; */
+  width: 0;
+}
